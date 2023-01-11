@@ -1,0 +1,61 @@
+load newExample.png example
+
+blur example blur
+save Normal/blur.png blur
+sharpen example sharpen
+save Normal/sharpen.png sharpen
+sepia example sepia
+save Normal/sepia.png sepia
+greyscale example greyscale
+save Normal/greyscale.png greyscale
+red-component example red
+save Normal/red.png red
+green-component example green
+save Normal/green.png green
+blue-component example blue
+save Normal/blue.png blue
+luma-component example luma
+save Normal/luma.png luma
+value-component example value
+save Normal/value.png value
+intensity-component example intensity
+save Normal/intensity.png intensity
+darken 100 example dark
+save Normal/dark.png dark
+brighten 100 example bright
+save Normal/bright.png bright
+horizontal-flip example horizontal
+save Normal/horizontal.png horizontal
+vertical-flip example vertical
+save Normal/vertical.png vertical
+
+load mask.png mask
+partial blur mask example blurPartial
+save Partial/blurPartial.png blurPartial
+partial sharpen mask example sharpenPartial
+save Partial/sharpenPartial.png sharpenPartial
+partial sepia mask example sepiaPartial
+save Partial/sepiaPartial.png sepiaPartial
+partial greyscale mask example greyscalePartial
+save Partial/greyscalePartial.png greyscalePartial
+partial red-component mask example redPartial
+save Partial/redPartial.png redPartial
+partial green-component mask example greenPartial
+save Partial/greenPartial.png greenPartial
+partial blue-component mask example bluePartial
+save Partial/bluePartial.png bluePartial
+partial luma-component mask example lumaPartial
+save Partial/lumaPartial.png lumaPartial
+partial value-component mask example valuePartial
+save Partial/valuePartial.png valuePartial
+partial intensity-component mask example intensityPartial
+save Partial/intensityPartial.png intensityPartial
+partial darken mask 100 example darkPartial
+save Partial/darkPartial.png darkPartial
+partial brighten mask 100 example brightPartial
+save Partial/brightPartial.png brightPartial
+partial horizontal-flip mask example horizontalPartial
+save Partial/horizontalPartial.png horizontalPartial
+partial vertical-flip mask example verticalPartial
+save Partial/verticalPartial.png verticalPartial
+

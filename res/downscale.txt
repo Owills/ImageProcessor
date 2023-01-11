@@ -1,0 +1,5 @@
+load gui.png gui
+downscale 500 500 gui downSameRatio
+downscale 400 200 gui downDifferentRatio
+save downSameRatio.jpg downSameRatio
+save downDifferentRatio.jpg downDifferentRatio
